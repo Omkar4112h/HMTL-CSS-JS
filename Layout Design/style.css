@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(80, 77, 77)
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+.head{
+    background:  rgb(80, 77, 77);
+    color: rgb(15, 15, 15);
+}
+.head a{
+    padding: 24px;
+     
+    
+    text-decoration: none;
+    color: black;
+}
+.pic{
+    display: flex;
+    padding: 25px;
+    margin: 50px;
+    margin: 24px;
+    border: 2px solid black;
+    height: 100vh;
+    background: url(q1.jpg);
+    background-size: cover;
+    
+    
+    
+   
+    
+
+}
+.a{
+    
+    border: 2px solid rgb(237, 233, 233);
+    height: 400px;
+    color: white;
+    backdrop-filter: blur(5px);
+    margin: 0 15px;
+  
+    
+
+}
+.b{
+    border: 2px solid rgb(248, 245, 245);
+    height: 400px;
+    color: white;
+    backdrop-filter: blur(5px);
+      margin: 0 15px;
+}
+
+.wel{
+    color: white;
+    border: 2px solid rgb(235, 233, 233);
+    padding: 25px;
+    margin: 23px;
+    border-radius: 15px;
+}
+.last img{
+   
+    
+    border: 2px solid white;
+    bottom: 12px;
+    height: 32px;
+    width: 32px;
+    position: fixed;
+    right: 23px;
+    border-radius: 50px;
+
+}
