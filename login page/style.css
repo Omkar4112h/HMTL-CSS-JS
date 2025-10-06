@@ -50,8 +50,7 @@ header{
     background: url(p1.jpg) ;
     background-size:cover;
     background-position: center;
-    
-    
+
  } 
     
 .use{
@@ -115,4 +114,5 @@ header{
 
 .para a:hover{
     color: blueviolet;
+
 }
