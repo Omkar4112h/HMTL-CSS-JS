@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(p1.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+
+}
+.nav a{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: blueviolet;
+}
+
+
+.content{
+    position: relative;
+    width: 400px;
+    height: 50vh;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(p1.jpg) ;
+    background-size:cover;
+    background-position: center;
+    
+    
+ } 
+    
+.use{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid rgb(15, 15, 15);
+    margin-bottom: 30px;
+    
+}
+
+.use input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    
+    
+
+}
+
+.check label{
+    margin-right:50px; 
+    color: white;
+}
+.check a{
+    margin-left: 90px;
+    color:rgb(170, 131, 207);
+}
+.check a:hover{
+ color:blueviolet;
+}
+
+.Login{
+    margin: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+    border: 0.5px solid ;
+    background: transparent;
+    color: white;
+    
+    
+}
+.para{
+
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  
+}
+.para a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:rgb(170, 131, 207);
+
+
+}
+
+.para a:hover{
+    color: blueviolet;
+}
